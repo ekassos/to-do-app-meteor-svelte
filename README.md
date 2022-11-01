@@ -3,7 +3,12 @@
 $\textcolor{ForestGreen}{\textbf{\emph{Completed:}}} \text{\emph{ Sunday, Oct 30, 2022}}$
 
 ## Live Demo
-You can access a working version of the project [here](https://to-do-app-meteor-svelte.meteorapp.com).
+You can access a working version of the project [here](https://to-do-app-meteor-svelte.meteorapp.com). If the website is not available (have received some mesages that "Cold startapp stopped due to lack of connections"), run the following commands locally:
+```bash
+meteor npm install
+meteor npm install svelte
+meteor run
+```
 
 ## Code Source 
 The code for this project is adapted from Meteor Cloud's [Meteor Svelte Simple ToDos](https://www.codingnepalweb.com/create-todo-list-app-html-javascript/) tutorial, with a few additions as noted in the [Improvements section](#improvements) below.
